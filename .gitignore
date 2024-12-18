@@ -1,0 +1,60 @@
+# Ignorar vídeos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.webm
+*.mpeg
+*.mpg
+
+# Ignorar arquivos de checkpoints de treino e logs
+*.ckpt
+*.pth
+*.h5
+*.log
+*.onnx
+
+# Ignorar datasets e pastas grandes
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos temporários
+*.tmp
+*.swp
+*.bak
+
+# Ignorar ambiente virtual do Python
+venv/
+.env
+*.env
+
+# Ignorar IDEs e editores de código
+.vscode/
+.idea/
+*.iml
+
+# Ignorar saídas de inferência e imagens geradas
+output/
+results/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.svg
+
+# Ignorar arquivos de configuração locais
+config_local.yaml
