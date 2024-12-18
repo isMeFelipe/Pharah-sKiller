@@ -56,5 +56,7 @@ results/
 *.tiff
 *.svg
 
+YOLO/*
+runs/*
 # Ignorar arquivos de configuração locais
 config_local.yaml
