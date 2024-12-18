@@ -56,7 +56,12 @@ results/
 *.tiff
 *.svg
 
-YOLO/*
+YOLO/dataset*
+YOLO/runs*
+YOLO/yolo-env*
+YOLO/yolo*
+
+
 runs/*
 # Ignorar arquivos de configuração locais
 config_local.yaml
