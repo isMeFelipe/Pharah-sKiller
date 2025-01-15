@@ -62,7 +62,7 @@ YOLO/yolo-env*
 YOLO/yolo*
 
 SEGMENTAR/frames
-SEGMENTAR/seg_venv
+SEGMENTAR/seg_venv/*
 SEGMENTAR/*.mp4
 SEGMENTAR/*.mkv
 
