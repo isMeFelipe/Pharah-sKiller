@@ -19,10 +19,10 @@ frame_queue = Queue(maxsize=1)
 object_positions = {}
 
 # Tempo entre as capturas (50ms, já configurado no canvas.after)
-TIME_BETWEEN_FRAMES = 0.5  # segundos
+TIME_BETWEEN_FRAMES = 1  # segundos
 
 # Número de frames à frente para estimar
-FRAMES_A_FRENTE = 5  # Estimar 5 frames à frente
+FRAMES_A_FRENTE = 2  # Estimar 5 frames à frente
 
 # Função para capturar a tela
 def capture_screen():
@@ -93,7 +93,7 @@ def draw_direction(canvas, positions):
         radius = 10  # Tamanho da bola
 
         # Mover a bola 15 pixels para cima manualmente
-        adjusted_center_y = center_y - 15  # Ajusta a posição para cima
+        adjusted_center_y = center_y - 30  # Ajusta a posição para cima
 
         # Verifica se o objeto já foi detectado antes
         if label not in object_positions:
